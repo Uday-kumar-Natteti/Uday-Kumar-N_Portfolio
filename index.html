@@ -107,34 +107,7 @@
 
           </div>
 
-          <!-- Tab Contents -->
-          <div class="tab-contents">
-            <!-- Skills Tab -->
-            <div id="about-skills" class="tab-content active">
-              <div class="skills-grid">
-                <div class="skill-item">
-                  <i class="fab fa-python"></i>
-                  <div>
-                    <h4>Python Development</h4>
-                    <p>Advanced programming & frameworks (Django, Flask)</p>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-cloud"></i>
-                  <div>
-                    <h4>Cloud Computing</h4>
-                    <p>AWS, Azure, and serverless architectures</p>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <i class="fas fa-database"></i>
-                  <div>
-                    <h4>Database Management</h4>
-                    <p>SQL, NoSQL, and data modeling</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
 
             <!-- Experience Tab -->
             <div id="experience" class="tab-content">
@@ -221,396 +194,163 @@
 
 
   <!-- Skills Section -->
-  <section id="skills" class="section skills-section">
-    <div class="container">
-      <h2 class="section-title">Technical<span>Skills</span></h2>
-      <p class="section-subtitle">Technologies I'm working with</p>
+<section id="skills" class="section skills-section">
+  <div class="container">
+    <h2 class="section-title">Technical<span>Skills</span></h2>
+    <p class="section-subtitle">Technologies I'm working with</p>
 
-      <!-- Skills Filter -->
-      <div class="skills-filter">
-        <!-- <button class="filter-btn active" data-filter="all">
-          <i class="fas fa-th"></i> All Skills
-        </button> -->
-        <button class="filter-btn" data-filter="frontend">
-          <i class="fas fa-laptop-code"></i> Frontend
-        </button>
-        <button class="filter-btn" data-filter="backend">
-          <i class="fas fa-server"></i> Backend
-        </button>
-        <button class="filter-btn" data-filter="database">
-          <i class="fas fa-database"></i>Database
-        </button>
-        <button class="filter-btn" data-filter="cloud">
-          <i class="fas fa-cloud"></i> Cloud
-        </button>
-        <button class="filter-btn" data-filter="tools">
-          <i class="fas fa-tools"></i> Tools
-        </button>
+    <!-- Skills Filter -->
+    <div class="skills-filter">
+      <button class="filter-btn" data-filter="programming">
+        <i class="fas fa-code"></i> Programming
+      </button>
+      <button class="filter-btn" data-filter="frontend">
+        <i class="fas fa-laptop-code"></i> Frontend
+      </button>
+      <button class="filter-btn" data-filter="backend">
+        <i class="fas fa-server"></i> Backend
+      </button>
+      <button class="filter-btn" data-filter="database">
+        <i class="fas fa-database"></i> Database
+      </button>
+      <button class="filter-btn" data-filter="cloud">
+        <i class="fas fa-cloud"></i> Cloud
+      </button>
+      <button class="filter-btn" data-filter="tools">
+        <i class="fas fa-tools"></i> Tools & Platforms
+      </button>
+    </div>
 
+    <!-- Skills Grid -->
+    <div class="skills-grid">
+      <!-- Programming -->
+      <div class="skill-card" data-category="programming">
+        <div class="skill-info">
+          <h3 class="skill-name">Python</h3>
+          <span class="skill-level">Advanced</span>
+        </div>
+      </div>
+      <div class="skill-card" data-category="programming">
+        <div class="skill-info">
+          <h3 class="skill-name">Java</h3>
+          <span class="skill-level">Intermediate</span>
+        </div>
+      </div>
+      <div class="skill-card" data-category="programming">
+        <div class="skill-info">
+          <h3 class="skill-name">JavaScript</h3>
+          <span class="skill-level">Advanced</span>
+        </div>
+      </div>
+      <div class="skill-card" data-category="programming">
+        <div class="skill-info">
+          <h3 class="skill-name">PHP</h3>
+          <span class="skill-level">Basic</span>
+        </div>
       </div>
 
-      <!-- Skills Grid -->
-      <div class="skills-grid">
-        <!-- Frontend Skills -->
-        <div class="skill-card" data-category="frontend">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-html5"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">HTML5</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="95%"></div>
-            <span class="skill-percentage">95%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Semantic HTML</span>
-            <span class="skill-tag">Accessibility</span>
-            <span class="skill-tag">SEO</span>
-          </div>
+      <!-- Frontend -->
+      <div class="skill-card" data-category="frontend">
+        <div class="skill-info">
+          <h3 class="skill-name">HTML5</h3>
+          <span class="skill-level">Advanced</span>
         </div>
+      </div>
+      <div class="skill-card" data-category="frontend">
+        <div class="skill-info">
+          <h3 class="skill-name">CSS3</h3>
+          <span class="skill-level">Advanced</span>
+        </div>
+      </div>
+      <div class="skill-card" data-category="frontend">
+        <div class="skill-info">
+          <h3 class="skill-name">React</h3>
+          <span class="skill-level">Intermediate</span>
+        </div>
+      </div>
 
-        <div class="skill-card" data-category="frontend">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-css3-alt"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">CSS3</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="90%"></div>
-            <span class="skill-percentage">90%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Flexbox/Grid</span>
-            <span class="skill-tag">Animations</span>
-            <span class="skill-tag">Responsive</span>
-          </div>
+      <!-- Backend -->
+      <div class="skill-card" data-category="backend">
+        <div class="skill-info">
+          <h3 class="skill-name">Node.js</h3>
+          <span class="skill-level">Intermediate</span>
         </div>
-        <div class="skill-card" data-category="frontend">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-js-square"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">JavaScript</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="85%"></div>
-            <span class="skill-percentage">85%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">ES6+</span>
-            <span class="skill-tag">DOM</span>
-          </div>
+      </div>
+      <div class="skill-card" data-category="backend">
+        <div class="skill-info">
+          <h3 class="skill-name">Flask</h3>
+          <span class="skill-level">Intermediate</span>
         </div>
-        <div class="skill-card" data-category="frontend">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-react"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">React</h3>
-              <span class="skill-level">Intermediate</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="80%"></div>
-            <span class="skill-percentage">80%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Hooks</span>
-            <span class="skill-tag">Components</span>
-          </div>
-        </div>
+      </div>
 
-        <!-- Backend Skills -->
-        <div class="skill-card" data-category="backend">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-python"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">Python</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="85%"></div>
-            <span class="skill-percentage">85%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Django</span>
-            <span class="skill-tag">Flask</span>
-            <span class="skill-tag">APIs</span>
-          </div>
+      <!-- Database -->
+      <div class="skill-card" data-category="database">
+        <div class="skill-info">
+          <h3 class="skill-name">MySQL</h3>
+          <span class="skill-level">Intermediate</span>
         </div>
-        <div class="skill-card" data-category="backend">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fas fa-flask"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">Flask</h3>
-              <span class="skill-level">Intermediate</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="75%"></div>
-            <span class="skill-percentage">75%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Web Framework</span>
-            <span class="skill-tag">REST APIs</span>
-            <span class="skill-tag">Templates</span>
-          </div>
+      </div>
+      <div class="skill-card" data-category="database">
+        <div class="skill-info">
+          <h3 class="skill-name">MongoDB</h3>
+          <span class="skill-level">Intermediate</span>
         </div>
-        <div class="skill-card" data-category="backend">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fas fa-calculator"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">ML Libraries</h3>
-              <span class="skill-level">Basic</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="75%"></div>
-            <span class="skill-percentage">75%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">NumPy</span>
-            <span class="skill-tag">Pandas</span>
-            <span class="skill-tag">MatPlotLib</span>
-          </div>
+      </div>
+      <div class="skill-card" data-category="database">
+        <div class="skill-info">
+          <h3 class="skill-name">Firestore</h3>
+          <span class="skill-level">Intermediate</span>
         </div>
-        <!-- Database Skills -->
-        <div class="skill-card" data-category="database">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fas fa-database"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">MySQL</h3>
-              <span class="skill-level">Intermediate</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="70%"></div>
-            <span class="skill-percentage">70%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Queries</span>
-            <span class="skill-tag">Joins</span>
-            <span class="skill-tag">Optimization</span>
-          </div>
-        </div>
+      </div>
 
-        <div class="skill-card" data-category="database">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fas fa-layer-group"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">Oracle Database</h3>
-              <span class="skill-level">Intermediate</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="70%"></div>
-            <span class="skill-percentage">70%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">SQL</span>
-            <span class="skill-tag">PL/SQL</span>
-            <span class="skill-tag">Database Design</span>
-          </div>
+      <!-- Cloud -->
+      <div class="skill-card" data-category="cloud">
+        <div class="skill-info">
+          <h3 class="skill-name">Firebase</h3>
+          <span class="skill-level">Intermediate</span>
         </div>
+      </div>
+      <div class="skill-card" data-category="cloud">
+        <div class="skill-info">
+          <h3 class="skill-name">Vercel</h3>
+          <span class="skill-level">Intermediate</span>
+        </div>
+      </div>
+      <div class="skill-card" data-category="cloud">
+        <div class="skill-info">
+          <h3 class="skill-name">Render</h3>
+          <span class="skill-level">Intermediate</span>
+        </div>
+      </div>
 
-        <div class="skill-card" data-category="database">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fas fa-leaf"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">MongoDB</h3>
-              <span class="skill-level">Intermediate</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="65%"></div>
-            <span class="skill-percentage">65%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">NoSQL</span>
-            <span class="skill-tag">Aggregation</span>
-            <span class="skill-tag">Indexing</span>
-          </div>
+      <!-- Tools & Platforms -->
+      <div class="skill-card" data-category="tools">
+        <div class="skill-info">
+          <h3 class="skill-name">Git & GitHub</h3>
+          <span class="skill-level">Advanced</span>
         </div>
-
-        <!-- Cloud Skills -->
-        <div class="skill-card" data-category="cloud">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-aws"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">AWS</h3>
-              <span class="skill-level">Intermediate</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="75%"></div>
-            <span class="skill-percentage">75%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">EC2</span>
-            <span class="skill-tag">S3</span>
-            <span class="skill-tag">Lambda</span>
-          </div>
+      </div>
+      <div class="skill-card" data-category="tools">
+        <div class="skill-info">
+          <h3 class="skill-name">Postman</h3>
+          <span class="skill-level">Intermediate</span>
         </div>
-
-        <!-- Tools -->
-        <div class="skill-card" data-category="tools">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-git-alt"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">Git</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="80%"></div>
-            <span class="skill-percentage">80%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Version Control</span>
-            <span class="skill-tag">CI/CD</span>
-            <span class="skill-tag">GitHub</span>
-          </div>
+      </div>
+      <div class="skill-card" data-category="tools">
+        <div class="skill-info">
+          <h3 class="skill-name">NetBeans</h3>
+          <span class="skill-level">Basic</span>
         </div>
-
-        <div class="skill-card" data-category="tools">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-github"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">GitHub</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="85%"></div>
-            <span class="skill-percentage">85%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Repositories</span>
-            <span class="skill-tag">Pull Requests</span>
-            <span class="skill-tag">Actions</span>
-          </div>
+      </div>
+      <div class="skill-card" data-category="tools">
+        <div class="skill-info">
+          <h3 class="skill-name">VS Code</h3>
+          <span class="skill-level">Advanced</span>
         </div>
-
-        <div class="skill-card" data-category="tools">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fab fa-docker"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">Docker</h3>
-              <span class="skill-level">Intermediate</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="70%"></div>
-            <span class="skill-percentage">70%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Containers</span>
-            <span class="skill-tag">Images</span>
-            <span class="skill-tag">Docker Compose</span>
-          </div>
-        </div>
-        <div class="skill-card" data-category="tools">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fas fa-file-word"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">MS Word</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="90%"></div>
-            <span class="skill-percentage">90%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Documents</span>
-            <span class="skill-tag">Templates</span>
-            <span class="skill-tag">Formatting</span>
-          </div>
-        </div>
-        <div class="skill-card" data-category="tools">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fas fa-file-excel"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">MS Excel</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="85%"></div>
-            <span class="skill-percentage">85%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Formulas</span>
-            <span class="skill-tag">Pivot Tables</span>
-            <span class="skill-tag">Charts</span>
-          </div>
-        </div>
-
-        <div class="skill-card" data-category="tools">
-          <div class="skill-header">
-            <div class="skill-icon">
-              <i class="fas fa-file-powerpoint"></i>
-            </div>
-            <div class="skill-info">
-              <h3 class="skill-name">MS PowerPoint</h3>
-              <span class="skill-level">Advanced</span>
-            </div>
-          </div>
-          <div class="skill-progress-container">
-            <div class="skill-progress-bar" data-width="85%"></div>
-            <span class="skill-percentage">85%</span>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Presentations</span>
-            <span class="skill-tag">Animations</span>
-            <span class="skill-tag">Design</span>
-          </div>
-        </div>
-
-
-        <!-- Add more skills as needed -->
       </div>
     </div>
-  </section>
-
-
+  </div>
+</section>
 
   <!-- Projects Section -->
   <section id="projects" class="section projects-section">
